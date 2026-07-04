@@ -1,1 +1,133 @@
+# Penguin Species Classification
 
+A machine learning project that predicts penguin species using physical characteristics from the Palmer Penguins dataset. The project demonstrates a complete supervised machine learning workflow, from exploratory data analysis and feature engineering to model training and evaluation.
+
+---
+
+## Project Overview
+
+The objective of this project is to classify penguins into their respective species based on biological measurements. Multiple machine learning algorithms were trained and compared to identify the best-performing model.
+
+---
+
+## Dataset
+
+**Dataset:** Palmer Penguins Dataset
+
+The dataset contains measurements of penguins, including:
+
+- Bill Length
+- Bill Depth
+- Flipper Length
+- Body Mass
+- Sex
+- Island
+
+**Target Variable:**
+- Penguin Species
+
+---
+
+## Technologies Used
+
+- Python
+- Pandas
+- NumPy
+- Scikit-learn
+- XGBoost
+- Matplotlib
+- Seaborn
+
+---
+
+## Project Workflow
+
+### 1. Exploratory Data Analysis (EDA)
+
+- Explored feature distributions
+- Identified relationships between penguin characteristics
+- Visualized species differences
+- Examined missing values and data quality
+
+### 2. Feature Engineering
+
+- Prepared data for machine learning
+- Encoded categorical variables
+- Processed missing values
+- Selected relevant features
+
+### 3. Model Training
+
+The following classification algorithms were trained and compared:
+
+- Logistic Regression
+- Decision Tree
+- Random Forest
+- K-Nearest Neighbors (KNN)
+- Support Vector Classifier (SVC)
+- XGBoost Classifier
+
+### 4. Model Evaluation
+
+Models were evaluated using:
+
+- Accuracy
+- F1-Score
+
+Performance comparison was used to determine the most effective classifier for the dataset.
+
+---
+
+## Repository Structure
+
+```
+Penguins_ML_Project/
+│
+├── Penguins.ipynb
+├── penguins.csv
+├── README.md
+└── requirements.txt
+```
+
+---
+
+## How to Run
+
+1. Clone the repository
+
+```bash
+git clone https://github.com/bloxxastro1/Penguins_ML_Project.git
+```
+
+2. Install the required libraries
+
+```bash
+pip install -r requirements.txt
+```
+
+3. Open the Jupyter Notebook
+
+```bash
+jupyter notebook
+```
+
+4. Run the notebook cells sequentially.
+
+---
+
+## Future Improvements
+
+- Hyperparameter tuning
+- Cross-validation
+- Model deployment using Streamlit or Flask
+- Feature importance analysis
+- Automated machine learning (AutoML)
+
+---
+
+## Author
+
+**Mostafa Maher Abd El Fattah**
+
+- GitHub: https://github.com/bloxxastro1
+- LinkedIn: https://www.linkedin.com/in/mostafa-maher-6132171b2
